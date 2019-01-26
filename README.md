@@ -10,7 +10,7 @@
 
 如果你想看jQuery 版本的话,请点击下面的 Demo 地址:
 
-Demo 地址：[https://Miya-Yukarin.github.io/Nekomimi/]
+Demo 地址：[https://iMisty.github.io/Nekomimi/]
 
 ## 功能
 
