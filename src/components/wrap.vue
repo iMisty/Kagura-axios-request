@@ -1,7 +1,7 @@
 <template>
 <div class="container">
     <section class="left">
-      <ty-logo
+      <logo
         :imgUrl="avatar"
       />
       <div class="list">
@@ -18,23 +18,18 @@
 </template>
 
 <script>
-import tyLogo from './ty-logo'
+import Logo from './logo'
 import avatar from '@/static/avatar.png'
 export default {
   components: {
-      'ty-logo':tyLogo
+      'logo':Logo
   },
   props: {},
   data () {
     return {
         avatar
     }
-  },
-  watch: {},
-  computed: {},
-  methods: {},
-  created () {},
-  mounted () {}
+  }
 }
 </script>
 <style lang="less" scoped>

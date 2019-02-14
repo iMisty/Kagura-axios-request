@@ -1,6 +1,6 @@
 <template>
 <div class="animated fadeIn">
-        <ty-title
+        <home-title
             :title="title"
         />
         <section class="items">
@@ -15,12 +15,12 @@
     </template>
 
 <script>
-    import tyTitle from './ty-title'
+    import Title from './title'
     import buttonLink from './button-link'
     export default {
     components: {
         'button-link': buttonLink,
-        'ty-title': tyTitle
+        'home-title': Title
     },
     props: [],
     data () {

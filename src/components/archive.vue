@@ -1,6 +1,6 @@
 <template>
     <div class="animated fadeIn">
-        <ty-title
+        <archive-title
             :title="title"
         />
         <ul class="items archives">
@@ -15,10 +15,10 @@
 </template>
 
 <script>
-import tyTitle from './ty-title'
+import Title from './title'
 export default {
   components: {
-      'ty-title': tyTitle
+      'archive-title': Title
   },
   props: {},
   data () {
@@ -48,12 +48,7 @@ export default {
                 }
         ]
     }
-  },
-  watch: {},
-  computed: {},
-  methods: {},
-  created () {},
-  mounted () {}
+  }
 }
 </script>
 <style lang="less" scoped>

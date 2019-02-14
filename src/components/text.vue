@@ -11,12 +11,7 @@ export default {
   data () {
     return {
     }
-  },
-  watch: {},
-  computed: {},
-  methods: {},
-  created () {},
-  mounted () {}
+  }
 }
 </script>
 <style lang="less" scoped>

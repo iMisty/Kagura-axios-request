@@ -7,17 +7,7 @@
 
 <script>
 export default {
-  components: {},
-  props: ['text','link','icon'],
-  data () {
-    return {
-    }
-  },
-  watch: {},
-  computed: {},
-  methods: {},
-  created () {},
-  mounted () {}
+  props: ['text','link','icon']
 }
 </script>
 <style lang="less" scoped>

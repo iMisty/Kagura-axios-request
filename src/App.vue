@@ -7,7 +7,7 @@
 
 <script>
 import wrap from './components/wrap'
-import hitokoto from './components/ty-hitokoto'
+import hitokoto from './components/hitokoto'
 export default {
   name: 'app',
   components: {

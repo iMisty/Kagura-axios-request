@@ -1,6 +1,6 @@
 <template>
     <div class="animated fadeIn">
-        <ty-title
+        <game-title
             :title="title"/>
         <ul>
             <li v-for="item of list" :key="item.index">
@@ -13,10 +13,10 @@
 </template>
 
 <script>
-import tyTitle from './ty-title'
+import Title from './title'
 export default {
   components: {
-      'ty-title': tyTitle
+      'game-title': Title
       },
   props: {},
   data () {
