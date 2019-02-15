@@ -1,19 +1,8 @@
 <template>
     <p>
-        {{ text }}
+        <slot></slot>
     </p>
 </template>
-
-<script>
-export default {
-  components: {},
-  props: ['text'],
-  data () {
-    return {
-    }
-  }
-}
-</script>
 <style lang="less" scoped>
 p{
     margin: 2.6rem;

@@ -1,7 +1,6 @@
 <template>
     <div class="animated fadeIn">
-        <game-title
-            :title="title"/>
+        <game-title>Game</game-title>
         <ul>
             <li v-for="item of list" :key="item.index">
                 <span class="text">{{ item.name }}</span>
@@ -21,7 +20,6 @@ export default {
   props: {},
   data () {
     return {
-        title: 'Game',
         list: [
             {
                 name: '游戏1',

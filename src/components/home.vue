@@ -1,8 +1,6 @@
 <template>
 <div class="animated fadeIn">
-        <home-title
-            :title="title"
-        />
+        <home-title>Yukaric Fes</home-title>
         <section class="items">
         <button-link
             v-for="item of list" 
@@ -25,7 +23,6 @@
     props: [],
     data () {
         return {
-        title: 'Yukaric Fes',
         list: [
             {
             icon: 'fa-home',

@@ -1,8 +1,6 @@
 <template>
     <div class="animated fadeIn">
-        <archive-title
-            :title="title"
-        />
+        <archive-title>Archives</archive-title>
         <ul class="items archives">
             <li v-for="item in list" :key="item.index">
                 <a :href="item.link">
@@ -23,7 +21,6 @@ export default {
   props: {},
   data () {
     return {
-        title: 'Archives',
         list: [
                 {
                     link: 'https://blog.yukarin.me/archives/16.html',

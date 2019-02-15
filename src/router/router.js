@@ -35,7 +35,7 @@ const routes =  [
 const router = new VueRouter({
     base: __dirname,
     routes,
-    mode:'history'
+    mode:'hash'
 });
 
 export default router;
