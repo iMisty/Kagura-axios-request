@@ -8,9 +8,7 @@
 
 这个项目是 `Nekomimi` 的 Vue 实现版本
 
-如果你想看jQuery 版本的话,请点击下面的 Demo 地址:
-
-Demo 地址：[https://iMisty.github.io/Nekomimi/]
+Demo 地址：[https://imisty.github.io/NekoMimi/dist/index.html]
 
 ## 功能
 
@@ -43,7 +41,7 @@ Demo 地址：[https://iMisty.github.io/Nekomimi/]
 1. 请先确认计算机内已安装 `Node.js` 与 `npm` 
 
 2. 在 GitHub 中 `Clone` 这个项目，或 `Download Zip` 这个项目.或直接在终端中：
-> git clone https://github.com/Miya-Yukarin/Nekomimi.git 
+> git clone https://github.com/iMisty/Nekomimi.git 
 
 >cd nekomimi
 
