@@ -1,9 +1,7 @@
 <template>
 <div class="container">
     <section class="left">
-      <logo
-        :imgUrl="avatar"
-      />
+      <logo :imgUrl="avatar"/>
       <div class="list">
         <li><router-link to="/home">Home</router-link></li>
         <li><router-link to="/archive">Archives</router-link></li>
