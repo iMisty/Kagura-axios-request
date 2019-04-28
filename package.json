@@ -11,21 +11,22 @@
     "animate.css": "^3.7.0",
     "css-loader": "^1.0.1",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.3.1",
-    "less": "^3.8.1",
+    "jquery": "^3.4.0",
+    "less": "^3.9.0",
     "less-loader": "^4.1.0",
     "style-loader": "^0.23.1",
-    "vue": "^2.5.17"
+    "vue": "^2.6.10",
+    "webpack-dev-server": "^3.3.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.5",
-    "@vue/cli-plugin-eslint": "^3.0.5",
-    "@vue/cli-service": "^3.0.5",
+    "@vue/cli-plugin-babel": "^3.6.0",
+    "@vue/cli-plugin-eslint": "^3.6.0",
+    "@vue/cli-service": "^3.6.0",
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.8.0",
-    "eslint-plugin-vue": "^5.0.0-0",
-    "vue-router": "^3.0.1",
-    "vue-template-compiler": "^2.5.17"
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "vue-router": "^3.0.6",
+    "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
     "root": true,

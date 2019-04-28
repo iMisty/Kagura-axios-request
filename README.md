@@ -34,7 +34,7 @@ Demo 地址：[https://imisty.github.io/NekoMimi/dist/index.html]
 
 ### 背景
 
-可自定义随机变换1080P壁纸，全网 CDN 加速
+~~可自定义随机变换1080P壁纸，全网 CDN 加速~~ （2019.4.26：新浪图床开启了限制，近日更新）
 
 ## 部署方法
 
@@ -54,6 +54,10 @@ Demo 地址：[https://imisty.github.io/NekoMimi/dist/index.html]
 > npm start
 
 注：在本地服务器启动的情况下，所有修改都会重新部署并自动刷新浏览器
+
+## 更新
+
+2019.4.28 摸鱼： 更新所有依赖版本
 
 ## 许可
 
