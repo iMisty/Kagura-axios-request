@@ -8,6 +8,8 @@
 
 原项目备份:https://github.com/iMisty/Ling-lib/tree/master/NekoMimi-Vue2.6
 
+目前依然保留了 Vue2.6 版本的预览:https://imisty.github.io/NekoMimi
+
 对比原版增删了以下内容
 
 ### 删除
