@@ -4,7 +4,7 @@
  * @Author: Mirage
  * @Date: 2022-04-25 10:48:51
  * @LastEditors: Mirage
- * @LastEditTime: 2022-05-20 16:53:04
+ * @LastEditTime: 2022-05-20 17:04:34
  */
 import axios from 'axios';
 import type { AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios';
@@ -23,7 +23,7 @@ class Request {
   // Array for Now Cancel Pending Request
   public listRequestCancelSource?: CancelRequestSource[];
 
-  /** @constructor */
+    /** @constructor */
   constructor(config: CustomRequestConfig) {
     /**
      * @constructor
