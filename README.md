@@ -196,16 +196,6 @@ async function getListDataWithAPI() {
 }
 ```
 
-5. (1.1 新增) 取消发送事件
-
-```typescript
-// example.ts
-
-const deletePendingRequest = (url: string) => {
-  return request.delPendingRequest(url);
-};
-```
-
 ## 使用(JavaScript)
 
 1. 实例化一个新的 `Request` 实例，所有参数遵循 `axios` 官方参数
@@ -328,16 +318,6 @@ async function getListDataWithAPI() {
   }
 }
 ```
-
-5. (1.1 新增) 取消发送事件
-
-```javascript
-// example.js
-
-const deletePendingRequest = (url) => {
-  return request.delPendingRequest(url);
-};
-```F
 
 ## 使用协议
 
