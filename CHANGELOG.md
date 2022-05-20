@@ -2,19 +2,23 @@
 
 ### English
 
-- 1.1.0 Add Cancel Request Function
+- 1.1.1 Feat: Remove Comments on Product Mode
 
-- 1.0.5 Fix Document
+- 1.1.0 Feat: Cancel Request Function
 
-- 1.0.4 Update Document
+- 1.0.5 Fix: Document
 
-- 1.0.3 Fix Interceptors Catch error Type
+- 1.0.4 Update: Document
 
-- 1.0.2 Compress request.min.js
+- 1.0.3 Fix: Interceptors Catch error Type
 
-- 1.0.1 Add Document (Chinese)
+- 1.0.2 Feat: Compress request.min.js
+
+- 1.0.1 Create: Add Document (Chinese)
 
 ### 中文
+
+- 1.1.1 增加打包后删除注释
 
 - 1.1.0 增加取消请求功能
 
