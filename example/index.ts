@@ -4,7 +4,7 @@
  * @Author: Mirage
  * @Date: 2022-04-21 18:10:39
  * @LastEditors: Mirage
- * @LastEditTime: 2022-05-20 16:15:40
+ * @LastEditTime: 2022-04-25 10:52:07
  */
 import Request from '../src/Request';
 import type { ExtendsCustomRequestConfig } from '../src/interface';
@@ -75,8 +75,4 @@ const getJSONData = (data: Req) => {
       },
     },
   });
-};
-
-const deletePendingRequest = (url: string) => {
-  return request.delPendingRequest(url);
 };
