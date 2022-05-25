@@ -4,7 +4,7 @@
  * @Author: Mirage
  * @Date: 2022-04-25 10:49:12
  * @LastEditors: Mirage
- * @LastEditTime: 2022-04-25 10:51:36
+ * @LastEditTime: 2022-05-20 15:55:44
  */
 import type { AxiosRequestConfig, AxiosResponse } from 'axios';
 
@@ -25,6 +25,10 @@ interface CustomRequestConfig extends AxiosRequestConfig {
 interface ExtendsCustomRequestConfig<T> extends CustomRequestConfig {
   data?: T;
   params?: T;
+}
+
+export interface CancelRequestSource {
+  [index: string]: () => void;
 }
 
 export { RequestInterceptors, CustomRequestConfig, ExtendsCustomRequestConfig };
