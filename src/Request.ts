@@ -13,6 +13,7 @@ import type {
   CustomRequestConfig,
   CancelRequestSource,
 } from './interface';
+
 class Request {
   // Axios Example
   public instance: AxiosInstance;
@@ -23,7 +24,7 @@ class Request {
   // Array for Now Cancel Pending Request
   public listRequestCancelSource?: CancelRequestSource[];
 
-    /** @constructor */
+  /** @constructor */
   constructor(config: CustomRequestConfig) {
     /**
      * @constructor
