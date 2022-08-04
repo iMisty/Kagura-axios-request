@@ -2,6 +2,8 @@
 
 ### English
 
+- 1.1.5 Feat: Change Scope Project Name
+
 - 1.1.1 Feat: Remove Comments on Product Mode
 
 - 1.1.0 Feat: Cancel Request Function
@@ -17,6 +19,8 @@
 - 1.0.1 Create: Add Document (Chinese)
 
 ### 中文
+
+- 1.1.5 修改为局部包
 
 - 1.1.1 增加打包后删除注释
 
