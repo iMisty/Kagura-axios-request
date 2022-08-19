@@ -1,10 +1,10 @@
 /*
  * @Author: Miya
  * @Date: 2022-08-20 01:27:54
- * @LastEditTime: 2022-08-20 03:10:23
+ * @LastEditTime: 2022-08-20 03:12:16
  * @LastEditors: Miya
  * @Description: VuePress Config Root
- * @FilePath: \undefinedf:\Documents\Github\Kagura-axios-request\docs\.vitepress\config.ts
+ * @FilePath: f:\Documents\Github\Kagura-axios-request\docs\.vitepress\config.ts
  */
 import configFooter from './components/footer';
 import configNavbar from './components/navbar';
