@@ -1,4 +1,4 @@
-name: Deploy
+name: kagura-axios-request
 
 on:
   push:
@@ -20,7 +20,7 @@ jobs:
         run: yarn docs:build
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: kagura-axios-request/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: docs/.vitepress/dist
