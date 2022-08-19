@@ -33,7 +33,7 @@ jobs:
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./docs/.vitepress/dist
-          destination: ./_site
+          destination: ./docs/.vitepress/dist
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
