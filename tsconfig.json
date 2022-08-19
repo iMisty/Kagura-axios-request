@@ -11,8 +11,6 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
 
-    "removeComments": true,
-
     /* Type Checking */
     "strict": true /* Enable all strict type-checking options. */,
     /* Completeness */

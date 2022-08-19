@@ -1,6 +1,6 @@
 {
   "name": "@miramiya/request",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "AJAX Request Setting base on Axios",
   "main": "./lib/index.js",
   "files": [
@@ -9,7 +9,10 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
   },
   "repository": {
     "type": "git",
@@ -26,16 +29,16 @@
   "homepage": "https://github.com/iMisty/Kagura-axios-request#readme",
   "dependencies": {},
   "devDependencies": {
-    "axios": "^0.26.1",
     "@types/jest": "^27.4.1",
     "@typescript-eslint/eslint-plugin": "^5.20.0",
     "@typescript-eslint/parser": "^5.20.0",
+    "axios": "^0.26.1",
     "eslint": "^8.13.0",
     "eslint-plugin-node": "^11.1.0",
-    "jest": "^27.5.1",
     "prettier": "^2.6.2",
     "ts-jest": "^27.1.4",
-    "typescript": "^4.6.3"
+    "typescript": "^4.6.3",
+    "vitepress": "^1.0.0-alpha.8"
   },
   "directories": {
     "example": "example",
