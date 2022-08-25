@@ -3,8 +3,8 @@
  * @Version: 1.1
  * @Author: Mirage
  * @Date: 2022-04-25 10:48:51
- * @LastEditors: Mirage
- * @LastEditTime: 2022-05-20 17:04:34
+ * @LastEditors: Miya
+ * @LastEditTime: 2022-08-25 22:45:16
  */
 import axios from 'axios';
 import type { AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios';
@@ -108,7 +108,7 @@ class Request {
    * @description Cancel Pending Request Method
    * @param url {string | Array<string>} URL Request List
    */
-  private delPendingRequestMethod(url: string) {
+  private delPendingRequestMethod(url: string):void {
     const getUrlIndex = this.listRequestURL?.findIndex((item) => item === url);
     const getSourceIndex = this.getURLSourceIndex(url);
 

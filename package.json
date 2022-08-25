@@ -26,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/iMisty/Kagura-axios-request/issues"
   },
-  "homepage": "https://github.com/iMisty/Kagura-axios-request#readme",
+  "homepage": "https://imisty.github.io/Kagura-axios-request/",
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^27.4.1",

@@ -1,1 +1,0 @@
-import{_ as t,c as a,o as e,d as i}from"./app.df5f221d.js";const p=JSON.parse('{"title":"Introduction \u76EE\u5F55","description":"","frontmatter":{},"headers":[],"relativePath":"config/intro.md"}'),o={name:"config/intro.md"},r=i("",2),n=[r];function s(c,l,_,d,u,h){return e(),a("div",null,n)}const m=t(o,[["render",s]]);export{p as __pageData,m as default};

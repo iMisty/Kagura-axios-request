@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a as o}from"./app.95a82102.js";const A=JSON.parse('{"title":"Abort \u4E2D\u6B62\u8BF7\u6C42","description":"","frontmatter":{},"headers":[],"relativePath":"config/abort.md"}'),e={name:"config/abort.md"},p=o("",5),l=[p];function t(r,c,y,i,d,F){return n(),a("div",null,l)}const C=s(e,[["render",t]]);export{A as __pageData,C as default};
