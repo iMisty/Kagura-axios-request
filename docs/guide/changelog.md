@@ -2,6 +2,8 @@
 
 ## English
 
+- 1.1.8 Fix: Fix Response Type
+
 - 1.1.5 Feat: Change Scope Project Name
 
 - 1.1.1 Feat: Remove Comments on Product Mode
@@ -19,6 +21,8 @@
 - 1.0.1 Create: Add Document (Chinese)
 
 ## 中文
+
+- 1.1.8 修复返回数据 type
 
 - 1.1.7 更新文档
 

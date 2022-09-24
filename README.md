@@ -36,6 +36,7 @@ yarn add @miramiya/request
 // request.ts
 import Request from '@miramiya/request';
 import type { CustomRequestConfig } from '@miramiya/request';
+import { AxiosResponse } from 'axios';
 
 /**
  *  定义自定义请求类型接口并继承于CustomRequestConfig
@@ -69,7 +70,7 @@ const RequestExample = <K, T>(config: ExtendsCustomRequestConfig<K>) => {
     config.data = config.params;
   }
   // 此处可以输入更多
-  return request.request<ResponseBody<T>>(config);
+  return request.request<AxiosResponse<ResponseBody<T>>>(config);
 };
 
 export default RequestExample;

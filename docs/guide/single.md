@@ -19,6 +19,7 @@
 
 import Request from '@miramiya/request';
 import type { CustomRequestConfig } from '@miramiya/request';
+import type { AxiosResponse } from 'axios';
 
 /**
  *  定义自定义请求类型接口并继承于CustomRequestConfig
@@ -52,7 +53,7 @@ const RequestExample = <K, T>(config: ExtendsCustomRequestConfig<K>) => {
     config.data = config.params;
   }
   // 此处可以输入更多
-  return request.request<ResponseBody<T>>(config);
+  return request.request<AxiosResponse<ResponseBody<T>>>(config);
 };
 
 export default RequestExample;
@@ -62,7 +63,7 @@ export default RequestExample;
 
 ```typescript
 // api/api.ts
-import RequestExample from "@/utils/request.ts";
+import RequestExample from '@/utils/request.ts';
 /**
  * 该API请求参数接口
  */
@@ -87,8 +88,8 @@ interface ExtraResponseBody {
  */
 const getListData = (data: RequestBody) => {
   return RequestExample<RequestBody, ExtraResponseBody>({
-    url: "/api",
-    method: "GET",
+    url: '/api',
+    method: 'GET',
     data,
   });
 };
@@ -117,7 +118,7 @@ const getListDataWithAPI = async() => {
 
 至此,您已经初始化并且已经可以使用一个通用且携带类型提示的 ajax 实例.该实例只包含最基础的配置,包括:
 
-- 发送URL为本地
+- 发送 URL 为本地
 - 超时时间为 20 秒
 - 发送方式为 `application/json`
 - Get 请求将使用 `query` 方式,其它请求使用 `Response Body`
