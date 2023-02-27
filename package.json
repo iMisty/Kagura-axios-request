@@ -1,6 +1,6 @@
 {
   "name": "@miramiya/request",
-  "version": "1.1.8-fixed",
+  "version": "1.1.9",
   "description": "AJAX Request Setting base on Axios",
   "main": "./lib/index.js",
   "files": [
