@@ -4,7 +4,7 @@
  * @Author: Mirage
  * @Date: 2022-04-25 10:48:51
  * @LastEditors: Miya
- * @LastEditTime: 2022-08-25 22:45:16
+ * @LastEditTime: 2023-03-03 17:52:42
  */
 import axios from 'axios';
 import type { AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios';
@@ -140,7 +140,7 @@ class Request {
       let setRequestData = await this.instance.request<T, any>(config);
 
       if (config.interceptors?.responseInterceptors) {
-        setRequestData = await config.interceptors?.responseInterceptors<T>(
+        setRequestData = await config.interceptors?.responseInterceptors(
           setRequestData
         );
       }
