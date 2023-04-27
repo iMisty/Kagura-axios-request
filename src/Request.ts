@@ -3,8 +3,8 @@
  * @Version: 1.1
  * @Author: Mirage
  * @Date: 2022-04-25 10:48:51
- * @LastEditors: Miya
- * @LastEditTime: 2023-03-03 17:52:42
+ * @LastEditors: Mirage
+ * @LastEditTime: 2023-04-27 20:48:28
  */
 import axios from 'axios';
 import type { AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios';
@@ -131,7 +131,6 @@ class Request {
 
     try {
       config.cancelToken = new axios.CancelToken((link) => {
-        console.log(link);
         this.listRequestCancelSource?.push({
           [url]: link,
         });
@@ -146,7 +145,6 @@ class Request {
       }
       return setRequestData;
     } catch (error: any) {
-      console.log(error);
       return error;
     } finally {
       url && this.delPendingRequestMethod(url);
