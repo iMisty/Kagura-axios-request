@@ -1,19 +1,26 @@
 /*
  * @Description: Axios Encapsulation
- * @Version: 1.0
- * @Author: Mirage
+ * @Version: 2.0
+ * @Author: Miya
  * @Date: 2022-04-20 14:39:00
  * @LastEditors: Mirage
- * @LastEditTime: 2022-04-25 10:53:13
+ * @LastEditTime: 2025-04-30 17:27:53
  */
-import Request from './Request';
+import Request from './FetchRequest';
 
 import {
-  RequestInterceptors,
-  CustomRequestConfig,
-  ExtendsCustomRequestConfig,
-} from './interface';
+  FetchRequestConfig,
+  RequestInterceptor,
+  ResponseInterceptor,
+} from './FetchRequest';
 
-export { RequestInterceptors, CustomRequestConfig, ExtendsCustomRequestConfig };
+import { RequestError } from './RequestError';
+
+export {
+  RequestError,
+  FetchRequestConfig,
+  RequestInterceptor,
+  ResponseInterceptor,
+};
 
 export default Request;
