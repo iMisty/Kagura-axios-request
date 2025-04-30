@@ -2,6 +2,8 @@
 
 ### English
 
+- 2.0.0-beta1: Change axios to fetch
+
 - 1.1.5 Feat: Change Scope Project Name
 
 - 1.1.1 Feat: Remove Comments on Product Mode
@@ -19,6 +21,8 @@
 - 1.0.1 Create: Add Document (Chinese)
 
 ### 中文
+
+- 2.0.0-beta1 从 `axios` 更改为原生 `fetch` 方法
 
 - 1.1.5 修改为局部包
 
